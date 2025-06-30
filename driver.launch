@@ -1,0 +1,15 @@
+<launch>
+
+	<group ns="ros_falcon_left">
+	<node pkg="ros_falcon" name="run_driver" type="driver" output="screen"
+	args="-r"/>
+	</group>
+	 
+	<group ns="ros_falcon_right">
+	<node pkg="ros_falcon" name="run_driver" type="driver" output="screen"
+	args="-l"/>
+	</group>
+
+</launch>
+
+
